@@ -10,5 +10,5 @@ RUN pip3 install --user -r /var/www/requirements.txt
 
 EXPOSE 8080
 
-USER root
+USER 12345
 CMD ["python3", "/var/www/app.py"]
