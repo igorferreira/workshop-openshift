@@ -6,7 +6,7 @@ LABEL version="1.0"
 RUN mkdir /var/www
 ADD ./src/. /var/www
 
-RUN pip3 install --user -r /var/www/requirements.txt
+RUN pip3 install -r /var/www/requirements.txt
 
 EXPOSE 8080
 
